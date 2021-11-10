@@ -1,19 +1,24 @@
-import React from 'react'
+import './Product.scss';
 
 const Product = () => {
     return (
         <>
-            <div classNameName="product__wrapper">
+            <div className="product__wrapper">
 
-                <div classNameName="product__logo">
-                    <h1>Logo Section</h1>
+                <div className="product__logo">
+                    <div className="intro">
+                        <img src="https://sunnamusk.com/wp-content/uploads/2020/11/Emblem-gold-2.svg" className="symbol" alt="" loading="lazy" height="50" width="312"/>
+                            <h3 className="product__heading1">CLASSIC SIGNATURE COLLECTION</h3> 
+                            <h4 className="product__heading2">A MODERN AND TIMELESS SCENT</h4> 
+                            <img src="https://sunnamusk.com/wp-content/uploads/2021/11/Golden-Dust.svg" className="size-full" alt="" loading="lazy" height="163.21" width="384.51"/> 
+                    </div>
                 </div>
 
-                <div classNameName="product__image">
-                    <h1>Product Image</h1>
+                <div className="product__image">
+                    
                 </div>
 
-                <div classNameName="product__purchase">
+                <div className="product__purchase">
                     <h1>£50.00 or 4 payments of £12.50 with Clearpay</h1>
 
                     <p>Devastatingly elegant, this fragrance captivates with its woody base, floral heart and notes of citrus to culminate in our top selling fragrance.</p>

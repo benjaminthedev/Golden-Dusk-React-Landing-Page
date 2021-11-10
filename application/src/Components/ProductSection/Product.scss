@@ -1,0 +1,67 @@
+.product__wrapper{
+    display: flex;
+    background-image: url('https://sunnamusk.com/wp-content/uploads/2021/11/Golden_Dusk_mainBG.jpeg');
+    height: 810px;
+    justify-content: space-between;
+    background-position: center;
+
+}
+
+
+
+// Product Section
+
+.product__logo,
+.product__image,
+.product__purchase{
+    width: 33.33vw
+}
+
+// First Logo Section
+
+.intro {
+    width: 70%;
+}
+
+.product__logo{
+    align-self: center;
+    margin-top: -100px;
+    margin-left: 200px;
+}
+
+.symbol {
+    width: 312px;
+    margin-bottom: 15px;
+}
+
+.product__heading1{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: .15em;
+    color: #a48160;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.product__heading2 {
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: .15em;
+   color: #a48160;
+   margin-bottom: 25px;
+}
+
+.size-full{
+    margin-top: 20px;
+}
+
+
+
+// Purchase Section
+
+.product__purchase{
+    color:#fff;
+}
