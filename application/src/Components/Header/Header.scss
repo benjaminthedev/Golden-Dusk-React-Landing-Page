@@ -1,0 +1,46 @@
+.header__top {
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+// find a store
+.findAStore{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color:#858585;
+    font-weight: 400;
+    font-family: "NexaLight", serif;
+    line-height: 17px;
+    letter-spacing: unset;
+}
+
+img.findIcon {
+    width: 25px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+/* Menu */
+
+.menu__hr {
+    border: 1px solid #dadada;
+    margin-top:30px ;
+}
+
+
+.menu__list ul {
+    display: flex;
+    justify-content: space-around;
+
+    & li{
+        list-style-type: none;
+
+        & a {
+            text-decoration: none;
+            font-size: small;
+        }
+    }
+}

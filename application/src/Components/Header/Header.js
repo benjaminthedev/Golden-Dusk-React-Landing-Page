@@ -1,6 +1,9 @@
 import React from 'react'
-
+import FindAStore from './FindAStore';
+import Logo from './Logo'
 import MenuList from './MenuList'
+
+import './Header.scss';
 
 const Header = () => {
     return (
@@ -8,12 +11,12 @@ const Header = () => {
           <div className="header__top">
              
              <div className="header__findAStore">
-                <a href="/">Icon Find a store</a>
+                <FindAStore />
             </div>
 
 
             <div className="header__logo">
-                <a href="/">Logo Here!</a>
+                <Logo />
             </div>
 
             <div className="header__logo">

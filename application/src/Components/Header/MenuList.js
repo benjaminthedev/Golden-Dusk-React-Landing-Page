@@ -2,7 +2,8 @@ import React from 'react'
 
 const MenuList = () => {
     return (
-        <div>
+        <div className="menu__list">
+            <div className="menu__hr"></div>
             <ul>
                 <li><a href="/">Fragrances</a></li>
                 <li><a href="/">Men</a></li>

@@ -1,13 +1,13 @@
-import Header from './Components/Header/Header'
+import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Product from './Components/ProductSection/Product'
-
+import Product from './Components/ProductSection/Product';
+import './App.scss'
 
 function App() {
   return (
-    <div >
+    <div>
       <Header />
-      <Product />
+       <Product />
       <Footer />
     </div>
   );
