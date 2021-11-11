@@ -1,6 +1,17 @@
 import './Product.scss';
+import { useState } from 'react'
 
 const Product = () => {
+
+    const [mlState, setmlState] = useState("fiftyML");
+
+      const urls = {
+            fiftyML: "https://sunnamusk.com/basket/?add-to-cart=1562",
+            oneHundredML: "https://sunnamusk.com/basket/?add-to-cart=1562"
+        };
+
+
+
     return (
         <>
             <div className="product__wrapper">
@@ -19,33 +30,38 @@ const Product = () => {
                 </div>
 
                 <div className="product__purchase">
-                    <h1>£50.00 or 4 payments of £12.50 with Clearpay</h1>
+                    <h1>£50.00 </h1>
 
-                    <p>Devastatingly elegant, this fragrance captivates with its woody base, floral heart and notes of citrus to culminate in our top selling fragrance.</p>
+                    <p>Just a sprinkling of Golden Dust adds a touch of magic to this unique floral musk.  Rich Damascena rose makes a perfect combination with fresh grapefruit, before entering a sweet vanilla heart and finally resting on a syrupy balsamic and amber base. </p>
 
-                    <div className="form-fields">
-                        <div className="dynamic-select-field">
-                        <label  for="p-quantity">QTY: <span> 1</span> <i className="far fa-chevron-down"></i></label>
-                        <select id="fet-quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        </select>
-                        <div className="js-div"><div value="1" data-value="1">1</div><div value="2" data-value="2">2</div><div value="3" data-value="3">3</div><div value="4" data-value="4">4</div><div value="5" data-value="5">5</div></div></div>
-                        <div className="dynamic-select-field fet-dynamic-size">
-                        <label >SIZE: <span>100ML</span> <i className="far fa-chevron-down"></i></label>
-                        <select id="fet-variation">
-                        <option data-slug="100-ml" value="100-ml">100ML</option>
-                        </select>
-                        <div className="js-div"><div data-slug="100-ml" value="100-ml" data-value="100-ml">100ML</div></div></div>
-                    </div>
+
+                <div class="selectorVolume">
+
+
+
+                     <select
+                        className="custom-select"
+                        value={mlState}
+                        onChange={(e) => {
+                        const selectedML = e.target.value;
+                        setmlState(selectedML);
+                        }}
+                    >
+                    
+                        <option value="fiftyML" className="options">50 ML</option>
+                        <option value="oneHundredML" className="options">100 ML</option>
+                    
+                    
+                    </select>
+
+                    <a href={urls[mlState]} className="addToBag">
+                        Add To Bag
+                    </a>    
+                    
                 </div>
-
-
-
-            </div>
+                    
+                </div>
+             </div>
         </>
     )
 }

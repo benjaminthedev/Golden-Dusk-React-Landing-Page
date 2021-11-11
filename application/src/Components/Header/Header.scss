@@ -12,16 +12,30 @@
     font-size: 14px;
     color:#858585;
     font-weight: 400;
-    font-family: "NexaLight", serif;
+    font-family: "NexaRegular", serif;
     line-height: 17px;
     letter-spacing: unset;
+    margin-top: 10px;
 }
 
 img.findIcon {
     width: 25px;
     margin-right: 10px;
-    margin-top: -5px;
+    margin-top: -10px;
 }
+
+a.loginLink {
+    text-decoration: none;
+    font-size: 14px;
+    color:#858585;
+    font-weight: 400;
+    font-family: "NexaRegular",
+    serif;
+    line-height: 17px;
+    letter-spacing: unset;
+    margin-top: 10px;
+}
+
 
 /* Menu */
 

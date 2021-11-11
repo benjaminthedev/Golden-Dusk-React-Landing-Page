@@ -19,8 +19,8 @@ const Header = () => {
                 <Logo />
             </div>
 
-            <div className="header__logo">
-                <a href="/">Sign in or register</a>
+            <div className="header__loginLink">
+                <a href="https://sunnamusk.com/my-account/" target="_blank" rel="noreferrer" className="loginLink">Sign in or register</a>
             </div>
 
           </div>  

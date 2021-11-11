@@ -90,6 +90,14 @@ select {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "NexaRegular";
+  src: local("NexaRegular"),
+    url("./Fonts/NexaRegular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
 h1,
 h2,
 h3,
