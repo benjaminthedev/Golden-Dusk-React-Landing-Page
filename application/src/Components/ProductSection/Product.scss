@@ -58,10 +58,94 @@
     margin-top: 20px;
 }
 
-
-
 // Purchase Section
+
+.selectorVolume {
+    display: flex;
+    justify-content: space-between;
+}
 
 .product__purchase{
     color:#fff;
+
+    & p{
+        margin-bottom: 40px;
+        color:#fff;
+    }
 }
+.product__purchase {
+    margin-top: 230px;
+    margin-right: 70px;
+}
+
+
+// Add to bag
+
+.addToBag{
+    
+    border: 2px solid #a48160;
+    color: #fff;
+    background-color: #a48160;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 10px;
+    letter-spacing: 0.15em;
+    line-height: 1;
+    border-radius: 0;
+    font-family: "NexaRegular", serif;
+    
+    
+    padding: 14px 0px;
+    font-weight: 700;
+
+        transition: color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+
+        &:hover{
+            background-color: #785a49;
+            border-color: #785a49;
+        }
+    }
+
+    .addToBag,
+    select.custom-select{
+        width: 13vw;
+    }
+
+
+    // Select
+
+    select.custom-select {
+        font-family: "NexaRegular",serif;
+        margin-top: 8px;
+        background: none;
+        border: none;
+        
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        color: #fff;
+
+        & .options{
+            background-color: green;
+            height: 200px;
+        }
+
+        
+    }
+
+
+    // .options {
+    //     background: #31312d !important;
+    //     padding: 70px 5px;
+    //     border-bottom: 1px solid aliceblue;
+    //     height: 20px;
+    // }
+
+    
+ 
