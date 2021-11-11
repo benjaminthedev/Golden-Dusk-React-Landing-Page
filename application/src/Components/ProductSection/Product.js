@@ -6,8 +6,8 @@ const Product = () => {
     const [mlState, setmlState] = useState("fiftyML");
 
       const urls = {
-            fiftyML: "https://sunnamusk.com/basket/?add-to-cart=1562",
-            oneHundredML: "https://sunnamusk.com/basket/?add-to-cart=1562"
+            fiftyML: "https://sunnamusk.com/basket/?add-to-cart=427369",
+            oneHundredML: "https://sunnamusk.com/basket/?add-to-cart=427370"
         };
 
 
