@@ -74,6 +74,28 @@ a.loginLink {
     }
 }
 
+
+.nav-tp {
+    padding: 10px 25px;
+    text-align: center;
+    background: #f4f4f4;
+    width: 100%;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+    span {
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+    a {
+        position: relative;
+        top: -2px;
+    }
+}
+
 // Responsive Styles
 
 // // Extra small devices (portrait phones, less than 576px)
