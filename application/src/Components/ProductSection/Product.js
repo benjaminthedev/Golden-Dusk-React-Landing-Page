@@ -1,14 +1,21 @@
 import './Product.scss';
 import { useState } from 'react'
+import Logo from '../Header/Logo';
 
 const Product = () => {
 
     const [mlState, setmlState] = useState("fiftyML");
 
-      const urls = {
+    const urls = {
             fiftyML: "https://sunnamusk.com/basket/?add-to-cart=427369",
             oneHundredML: "https://sunnamusk.com/basket/?add-to-cart=427370"
-        };
+    };
+
+
+  const prices = {
+    fiftyML: 55.00,
+    oneHundredML: 90.00
+  };
 
 
 
@@ -30,7 +37,9 @@ const Product = () => {
                 </div>
 
                 <div className="product__purchase">
-                    <h1>£50.00 </h1>
+                    <h1>£{prices[mlState]}</h1>
+                    
+                 
 
                     <p>Just a sprinkling of Golden Dust adds a touch of magic to this unique floral musk.  Rich Damascena rose makes a perfect combination with fresh grapefruit, before entering a sweet vanilla heart and finally resting on a syrupy balsamic and amber base. </p>
 
