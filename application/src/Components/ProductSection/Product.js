@@ -17,7 +17,7 @@ const Product = () => {
     oneHundredML: 90.00
   };
 
-window.location.href = 'https://sunnamusk.com/collection/golden-dust/';
+//window.location.href = 'https://sunnamusk.com/collection/golden-dust/';
 
     return (
         <>
